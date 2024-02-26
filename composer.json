@@ -1,0 +1,34 @@
+{
+    "name": "test/numbers-checker",
+    "type": "project",
+    "config": {
+        "sort-packages": true,
+        "bin-dir": "bin"
+    },
+    "require": {
+        "php": ">=8.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5",
+        "phpspec/prophecy-phpunit": "^2.1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "NumbersChecker\\": "src/",
+            "NumbersChecker\\App\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "NumbersChecker\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Danylo Kovalenko",
+            "email": "kds.contactbox@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
