@@ -1,1 +1,0 @@
-{"version":1,"defects":{"NumbersChecker\\Tests\\NumbersCheckerTest::testCaseMod3and5":8,"NumbersChecker\\Tests\\NumbersCheckerTest::testCaseMod2and7":5},"times":{"NumbersChecker\\Tests\\NumbersCheckerTest::testTask":3.503,"NumbersChecker\\Tests\\NumbersCheckerTest::testCaseMod3and5":1.707,"NumbersChecker\\Tests\\NumbersCheckerTest::testCaseMod2and7":0.004}}
